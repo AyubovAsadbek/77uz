@@ -6,9 +6,9 @@
 
 @layer base {
   html {
-    @apply h-full;
+    @apply min-h-full;
   }
   body {
-    @apply bg-BodyBg h-full font-primary;
+    @apply bg-BodyBg min-h-full font-primary;
   }
 }

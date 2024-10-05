@@ -4,107 +4,107 @@ const categorries = [
   {
     name: "Для женщин",
     itemsCount: "4 147",
-    icon: "public/icons/category-1.svg",
+    icon: "icons/category-1.svg",
   },
   {
     name: "Красота",
     itemsCount: "574",
-    icon: "public/icons/category-2.svg",
+    icon: "icons/category-2.svg",
   },
   {
     name: "Бытовая техника",
     itemsCount: "547",
-    icon: "public/icons/category-3.svg",
+    icon: "icons/category-3.svg",
   },
   {
     name: "Для мужчин",
     itemsCount: "547",
-    icon: "public/icons/category-4.svg",
+    icon: "icons/category-4.svg",
   },
   {
     name: "Здоровье",
     itemsCount: "684",
-    icon: "public/icons/category-5.svg",
+    icon: "icons/category-5.svg",
   },
   {
     name: "Электроника",
     itemsCount: "4 147",
-    icon: "public/icons/category-6.svg",
+    icon: "icons/category-6.svg",
   },
   {
     name: "Детские товары",
     itemsCount: "635",
-    icon: "public/icons/category-7.svg",
+    icon: "icons/category-7.svg",
   },
   {
     name: "Украшения и бижутерия",
     itemsCount: "4 147",
-    icon: "public/icons/category-8.svg",
+    icon: "icons/category-8.svg",
   },
   {
     name: "Домашняя утварь",
     itemsCount: "4 147",
-    icon: "public/icons/category-9.svg",
+    icon: "icons/category-9.svg",
   },
   {
     name: "Обувь",
     itemsCount: "684",
-    icon: "public/icons/category-10.svg",
+    icon: "icons/category-10.svg",
   },
   {
     name: "Канцелярия",
     itemsCount: "101",
-    icon: "public/icons/category-11.svg",
+    icon: "icons/category-11.svg",
   },
   {
     name: "Спорт и отдых",
     itemsCount: "741",
-    icon: "public/icons/category-12.svg",
+    icon: "icons/category-12.svg",
   },
   {
     name: "Автотовары",
     itemsCount: "63",
-    icon: "public/icons/category-13.svg",
+    icon: "icons/category-13.svg",
   },
   {
     name: "Новые легковые автомобили",
     itemsCount: "847",
-    icon: "public/icons/category-14.svg",
+    icon: "icons/category-14.svg",
   },
   {
     name: "Мототранспорт",
     itemsCount: "4 147",
-    icon: "public/icons/category-15.svg",
+    icon: "icons/category-15.svg",
   },
   {
     name: "Дача, сады и огороды",
     itemsCount: "847",
-    icon: "public/icons/category-16.svg",
+    icon: "icons/category-16.svg",
   },
   {
     name: "Личная гигиена",
     itemsCount: "741",
-    icon: "public/icons/category-17.svg",
+    icon: "icons/category-17.svg",
   },
   {
     name: "Аксессуарлар",
     itemsCount: "574",
-    icon: "public/icons/category-18.svg",
+    icon: "icons/category-18.svg",
   },
   {
     name: "Бытовая химия и личная гигиена",
     itemsCount: "101",
-    icon: "public/icons/category-19.svg",
+    icon: "icons/category-19.svg",
   },
   {
     name: "Строительство и ремонт",
     itemsCount: "4 147",
-    icon: "public/icons/category-20.svg",
+    icon: "icons/category-20.svg",
   },
   {
     name: "Сумки и чемоданы",
     itemsCount: "4 147",
-    icon: "public/icons/category-21.svg",
+    icon: "icons/category-21.svg",
   },
 ];
 
@@ -130,7 +130,7 @@ categorries.forEach((category) => {
                 </p>
               </div>
               <img
-                src="public/icons/arrow-right.svg"
+                src="icons/arrow-right.svg"
                 alt=""
                 class="ml-auto mr-3 w-3 h-3"
               />
