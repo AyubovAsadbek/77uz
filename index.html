@@ -30,7 +30,7 @@
           href="#"
           class="px-4 py-[14px] bg-white border-x border-b border-grey shadow-logo rounded-b-[20px]"
         >
-          <img src="public/images/svg/logo.svg" alt="" />
+          <img src="public/images/svg/logo.svg" alt="" class="mt-[14px]" />
         </a>
 
         <!-- Header Right -->
@@ -52,31 +52,62 @@
     <!-- Main -->
     <main>
       <!-- Categories -->
-      <section class="bg-white text-center pb-10">
-        <!-- Search Form -->
-        <form
-          class="bg-white border border-grey max-w-[580px] h-[60px] mx-auto relative bottom-9 rounded-lg flex items-center justify-between gap-2 p-2"
-        >
-          <label for="categorySearch">
-            <img src="public/icons/search.svg" alt="" />
-          </label>
-          <input
-            id="categorySearch"
-            type="text"
-            placeholder="Что вы ищите?"
-            class="flex-1 h-full outline-none"
-          />
-          <button
-            class="bg-black-100 text-white h-full px-8 rounded-md hover:bg-black-100/80 transition-all duration-300"
+      <section class="bg-white text-center pb-10 max-w-[1379px] mx-auto">
+        <div class="container">
+          <!-- Search Form -->
+          <form
+            class="bg-white border border-grey max-w-[580px] h-[60px] mx-auto relative bottom-9 rounded-lg flex items-center justify-between gap-2 p-2"
           >
-            Поиск
-          </button>
-        </form>
+            <label for="categorySearch">
+              <img src="public/icons/search.svg" alt="" />
+            </label>
+            <input
+              id="categorySearch"
+              type="text"
+              placeholder="Что вы ищите?"
+              class="flex-1 h-full outline-none"
+            />
+            <button
+              class="bg-black-100 text-white h-full px-8 rounded-md hover:bg-black-100/80 transition-all duration-300"
+            >
+              Поиск
+            </button>
+          </form>
 
-        <h1 class="text-[32px] font-bold leading-10 text-black-100">
-          Категории
-        </h1>
-        <p>Вы можете найти все категории, которые вам нужны от покупателя</p>
+          <h2 class="text-[32px] font-bold leading-10 text-black-100 mb-2">
+            Категории
+          </h2>
+          <p class="text-[16px] font-normal text-grey-100 mb-10">
+            Вы можете найти все категории, которые вам нужны от покупателя
+          </p>
+
+          <div id="categories" class="grid grid-cols-3 gap-x-[72px] gap-y-5">
+            <!-- <div
+              class="h-[85px] border border-grey rounded-xl shadow-card flex items-center cursor-pointer hover:border-blue group transition-all duration-300"
+            >
+              <div
+                class="w-16 h-16 border border-grey shadow-cardIcon rounded-xl bg-white -ml-8 flex items-center justify-center group-hover:border-blue transition-all duration-300"
+              >
+                <img src="public/icons/category-1.svg" alt="" />
+              </div>
+              <div class="text-left flex flex-col gap-1 ml-3">
+                <h3
+                  class="text-[16px] font-semibold leading-normal text-black-100"
+                >
+                  Для женщин
+                </h3>
+                <p class="text-[14px] font-normal leading-5 text-grey-100">
+                  4 147 объявлений
+                </p>
+              </div>
+              <img
+                src="public/icons/arrow-right.svg"
+                alt=""
+                class="ml-auto mr-3 w-3 h-3"
+              />
+            </div> -->
+          </div>
+        </div>
       </section>
     </main>
 
