@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="h-20 bg-HeadBg border-b border-grey flex items-center justify-between mb-[89px]"
+    >
+      <div class="container flex justify-between items-center">
+        <!-- Header Left -->
+        <div class="flex gap-6">
+          <p class="flex items-center gap-1">
+            Русский <img src="public/icons/arrow.svg" alt="" />
+          </p>
+          <a
+            href="#"
+            class="flex items-center gap-1 font-medium text-black-100 text-14px leading-5"
+            ><img class="w-5 h-5" src="public/icons/phone.svg" alt="" /> +998 88
+            500 50 00</a
+          >
+        </div>
+
+        <!-- Logo -->
+        <a
+          href="#"
+          class="px-4 py-[14px] bg-white border-x border-b border-grey shadow-logo rounded-b-[20px]"
+        >
+          <img src="public/images/svg/logo.svg" alt="" />
+        </a>
+
+        <!-- Header Right -->
+        <div class="flex gap-8">
+          <a
+            href="#"
+            class="flex items-center gap-2 font-semibold text-14 leading-5 text-black-100"
+            ><img src="public/icons/heart.svg" alt="" /> Избранные</a
+          >
+          <button
+            class="flex items-center gap-2 py-2.5 px-6 bg-[#EAEDF0] rounded-lg font-semibold text-14 leading-5 text-black-100"
+          >
+            Войти <img src="public/icons/login.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Categories -->
+      <section class="bg-white text-center pb-10">
+        <!-- Search Form -->
+        <form
+          class="bg-white border border-grey max-w-[580px] h-[60px] mx-auto relative bottom-9 rounded-lg flex items-center justify-between gap-2 p-2"
+        >
+          <label for="categorySearch">
+            <img src="public/icons/search.svg" alt="" />
+          </label>
+          <input
+            id="categorySearch"
+            type="text"
+            placeholder="Что вы ищите?"
+            class="flex-1 h-full outline-none"
+          />
+          <button
+            class="bg-black-100 text-white h-full px-8 rounded-md hover:bg-black-100/80 transition-all duration-300"
+          >
+            Поиск
+          </button>
+        </form>
+
+        <h1 class="text-[32px] font-bold leading-10 text-black-100">
+          Категории
+        </h1>
+        <p>Вы можете найти все категории, которые вам нужны от покупателя</p>
+      </section>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
